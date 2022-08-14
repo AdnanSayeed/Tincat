@@ -1,0 +1,241 @@
+body{
+  font-family: "montserrat";
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', 'sans-serif'; 
+}
+
+
+h3{
+  font-size: 1.5 rem;
+
+  
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+.title-heading{
+  font-size: 3rem; 
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+
+}
+
+.section-heading{
+
+  font-size: 3rem;
+  line-height: 1.5; 
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5; 
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+
+}
+.title-img{
+  transform: rotate(25deg);
+  width: 50%;
+  position: absolute;
+  right: 30%;
+}
+
+
+.postioning{
+  position: relative;
+}
+
+.colored{
+
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.white-section{
+
+  background-color: #fff;
+
+}
+
+
+/* navbar */
+
+
+
+.navbar{
+  padding: 0 0 50px;
+}
+
+
+.navbar-item{
+  padding: 10px;
+}
+
+
+.navbar-brand{
+  font-family:"ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+/* buttons */
+
+
+
+button{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+
+
+/* features */
+
+
+#features{
+  
+  position: relative;
+  
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.icon{
+  color: #ef7284;
+  margin-bottom: 10px;
+  
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+     
+  
+}
+
+
+
+
+/* testimonials */
+
+
+#testimonials{
+  background-color: #ef7284;
+  text-align: center;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+
+.test-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* press */
+
+
+#press{
+  background-color: #ef7284;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+.press-logo{
+  width: 15%;
+  margin: 20px;
+}
+
+
+/* pricing section */
+
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+
+.price-heading{
+
+  font-size: 3rem;
+  line-height: 1.5; 
+
+}
+
+
+.price-coln{
+  padding: 3% 2%;
+}
+
+@media (max-width: 969px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    display: none;
+  }
+  
+}
+
+
+
+/* call to action */
+
+#cta{
+  
+  padding: 10% 18%;
+  font-family: 'Montserrat', 'sans-serif'; 
+  font-size: 3rem; 
+  line-height: 1.5;
+  font-weight: 900;
+  
+}
+
+
+.actbtn{
+  padding: 3% 2%;
+}
+
+
+/* footer links */
+
+#footer{
+
+  padding: 7% 10%;
+
+}
+
+
+.flink{
+  margin: 20px 10px;
+}
+
+.cr{
+  padding: 5px;
+}
